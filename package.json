@@ -1,6 +1,6 @@
 {
   "name": "@irman/nativescript-screen-orientation",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A plugin to force change the orientation of a page programmatically in NativeScript. Supports both Android and iOS. Forked of /nativescript-screen-orientation",
   "main": "screen-orientation.js",
   "nativescript": {
@@ -12,7 +12,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/VideoSpike/nativescript-screen-orientation.git"
+    "url": "https://github.com/irman/nativescript-screen-orientation.git"
   },
   "keywords": [
     "nativescript",
