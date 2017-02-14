@@ -6,6 +6,8 @@ var frameModule=require("ui/frame"),
 var orientationType=null,
     completionCallback=null;
 
+var utils = require('utils/utils');
+
 function setOrientationsForViewControllers(){
     var preferred;
 
@@ -101,8 +103,8 @@ function setOrientationsForViewControllers(){
 
     };
 
-
-    var window=UIApplication.sharedApplication().windows.objectAtIndex(0),
+    var sharedApplication = utils.ios.getter(UIApplication, UIApplication.sharedApplication);
+    var window=sharedApplication.windows.objectAtIndex(0),
         rootController=window.rootViewController,
         tempmodal=UIViewController.alloc().init();
 
