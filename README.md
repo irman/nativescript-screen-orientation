@@ -9,7 +9,7 @@ Code Sample
 
    
 
-    var orientationModule = require("nativescript-screen-orientation");
+    var orientationModule = require("@irman/nativescript-screen-orientation");
         
       function pageLoaded(){
             orientationModule.setCurrentOrientation("landscape",function(){
@@ -36,7 +36,7 @@ Motivation
 Installation
 -------------------
 
-    tns plugin add nativescript-screen-orientation
+    tns plugin add @irman/nativescript-screen-orientation
 
 ----------
 
